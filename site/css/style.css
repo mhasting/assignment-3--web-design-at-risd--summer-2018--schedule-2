@@ -1,12 +1,32 @@
 * {
    margin: 0;
    padding: 0;
+   background-color: #DCDCDC
 }
 
+.border {
+   background-color: #ffffff;
+   text-align: center;
+   font: 32px Arial, sans-serif;
 
+}
+.numberCircle {
+  border-radius: 0%;
+  /* remove if you don't care about IE8 */
+  width: 46px;
+  height: 46px;
+  padding: 8px;
+  background: #fff;
+  border: 3px solid #ffffff;
+  color: #00008B;
+  background-color: #ffffff;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
 #flex-container {
    display: flex;
-
+   color: #FFFFFF;
+ text-decoration: none;
 
    /*
       Uncomment the following properties one by one to see how the flex container
@@ -48,6 +68,11 @@
    /* justify-content: space-between; */
    /* justify-content: space-around; */
    justify-content: space-evenly;
+}
+
+#flex-container3 {
+   display:flex;
+   justify-content: center;
 }
 
 .flex-item {
