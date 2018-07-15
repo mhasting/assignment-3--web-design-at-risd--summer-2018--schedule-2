@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+#flex-container {
+   display: flex;
+
+
+   /*
+      Uncomment the following properties one by one to see how the flex container
+      handles excess whitespace.
+   */
+   /* justify-content: flex-start; */
+   /* justify-content: flex-end; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+   /* justify-content: space-around; */
+   justify-content: space-evenly;
+}
+
+#flex-container1 {
+   display: flex;
+
+   /*
+      Uncomment the following properties one by one to see how the flex container
+      handles excess whitespace.
+   */
+   /* justify-content: flex-start; */
+   /* justify-content: flex-end; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+   /* justify-content: space-around; */
+   justify-content: space-evenly;
+}
+
+#flex-container2 {
+   display: flex;
+
+   /*
+      Uncomment the following properties one by one to see how the flex container
+      handles excess whitespace.
+   */
+   /* justify-content: flex-start; */
+   /* justify-content: flex-end; */
+   /* justify-content: center; */
+   /* justify-content: space-between; */
+   /* justify-content: space-around; */
+   justify-content: space-evenly;
+}
+
+.flex-item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   height: 250px;
+}
+
+/* .flex-item:nth-child(odd) {
+   background-color: rgb(240, 240, 240);
+}
+
+.flex-item:nth-child(even) {
+   background-color: rgb(220, 220, 220);
+}
+*/
