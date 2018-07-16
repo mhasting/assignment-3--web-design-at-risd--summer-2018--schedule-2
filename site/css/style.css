@@ -1,7 +1,19 @@
 * {
    margin: 0;
    padding: 0;
-   background-color: #DCDCDC
+   background-color: #eeeeee
+}
+section p {
+   text-align: center;
+   color: #00008B;
+    padding: 20px;
+    font-size: 4rem; /* Initial/default: 16px or 1em; */
+line-height: .9; /* Initial/default: normal, or about 1.2 */
+font-family: 'Source Sans Pro', sans-serif;
+}
+section {
+   padding: 50px;
+
 }
 
 .border {
@@ -10,19 +22,7 @@
    font: 32px Arial, sans-serif;
 
 }
-.numberCircle {
-  border-radius: 0%;
-  /* remove if you don't care about IE8 */
-  width: 46px;
-  height: 46px;
-  padding: 8px;
-  background: #fff;
-  border: 3px solid #ffffff;
-  color: #00008B;
-  background-color: #ffffff;
-  text-align: center;
-  font: 32px Arial, sans-serif;
-}
+
 #flex-container {
    display: flex;
    color: #FFFFFF;
@@ -71,18 +71,34 @@
 }
 
 #flex-container3 {
-   display:flex;
-   justify-content: center;
+   display: flex;
+   justify-content: space-evenly;
 }
+
 
 .flex-item {
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 100px;
-   height: 250px;
+   width: 150px;
+   height: 150px;
 }
 
+
+
+
+#flex-container4 {
+   display: flex;
+   justify-content: space-evenly;
+    color: black;
+     font-size: 1.2rem;
+     font-weight: 300;
+  }
+.top-right {
+    position:
+    top: 0px;
+    right: 0px;
+}
 /* .flex-item:nth-child(odd) {
    background-color: rgb(240, 240, 240);
 }
